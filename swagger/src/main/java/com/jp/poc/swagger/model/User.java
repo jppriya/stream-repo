@@ -1,9 +1,18 @@
 package com.jp.poc.swagger.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiModel(description = "Details of the user")
 public class User {
 
+	@ApiModelProperty(notes = "Id of the user")
 	private Integer userId;
+
+	@ApiModelProperty(notes = "Name of the user")
 	private String userName;
+
+	@ApiModelProperty(notes = "Address of the user")
 	private String address;
 
 	public User(Integer userId, String userName, String address) {
