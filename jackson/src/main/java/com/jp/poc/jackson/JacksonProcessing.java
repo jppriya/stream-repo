@@ -56,6 +56,11 @@ public class JacksonProcessing {
 	}
 
 	private String serialization(User user) throws JsonProcessingException {
+		/*
+		 * ObjectMapper used for reading and writing JSON, either to and from
+		 * basic POJOs(i.e model) (Plain Old Java Objects), or to and from a
+		 * general JSON
+		 */
 		ObjectMapper objectMapper = new ObjectMapper();
 		/*
 		 * converting bean to json String Serialization = model to json
