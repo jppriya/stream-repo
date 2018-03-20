@@ -1,0 +1,18 @@
+{
+	"userId": 1,
+	"firstName": "John",
+	"lastName": "Smith",
+	"age": 23,
+	"gender": "Male",
+	"phoneNumbers": [
+		"9876543210",
+		"4564456466"
+	],
+	"address": {
+		"streetAddress": "PERIMETER PKWY NW STE 15",
+		"city": "HUNTSVILLE",
+		"state": "AL",
+		"country": "United States",
+		"zip": "35806"
+	}
+}
