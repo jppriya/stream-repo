@@ -2,10 +2,11 @@ package com.jp.poc.jackson.model;
 
 import java.util.Arrays;
 
-import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonSetter;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 /**
  * @author jayapriya.r
@@ -23,9 +24,19 @@ public class Employee {
 	private String[] phoneNumbers;
 	private Address address;
 	private Double income;
-
+	@JsonSerialize(using= BooleanToString.class)
+	@JsonDeserialize(using= StringToBoolean.class)
+	private Boolean selfEmployed;
 	public Employee() {
 
+	}
+	
+	public Boolean getSelfEmployed() {
+		return selfEmployed;
+	}
+
+	public void setSelfEmployed(Boolean selfEmployed) {
+		this.selfEmployed = selfEmployed;
 	}
 
 	/**
@@ -39,7 +50,7 @@ public class Employee {
 	 * @param income
 	 */
 	public Employee(Integer employeeId, String firstName, String lastName, Integer age, String gender,
-			String[] phoneNumbers, Address address, Double income) {
+			String[] phoneNumbers, Address address, Double income,Boolean selfEmployed) {
 		super();
 		this.employeeId = employeeId;
 		this.firstName = firstName;
@@ -49,6 +60,7 @@ public class Employee {
 		this.phoneNumbers = phoneNumbers;
 		this.address = address;
 		this.income = income;
+		this.selfEmployed= selfEmployed;
 	}
 
 	public Integer getEmployeeId() {
@@ -121,8 +133,9 @@ public class Employee {
 	public String toString() {
 		return "Employee [employeeId=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName + ", age="
 				+ age + ", gender=" + gender + ", phoneNumbers=" + Arrays.toString(phoneNumbers) + ", address="
-				+ address + ", income=" + income + "]";
+				+ address + ", income=" + income + ", selfEmployed=" + selfEmployed + "]";
 	}
+	
 
 
 }

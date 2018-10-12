@@ -17,7 +17,7 @@ public class JacksonAnnotations {
 		String serializedResponse = jackson.serialization(employee);
 		
 		System.out.println("Serialized Response: " + serializedResponse);
-		Employee deSerializedResponse = jackson.deSerialization("{\"firstName\":\"JP\",\"lastName\":\"R\",\"age\":23,\"gender\":\"Female\",\"address\":{\"streetAddress\":null,\"city\":\"STAMFORD\",\"state\":\"CT\",\"zip\":\"06905\",\"country\":\"FAIRFIELD\"},\"monthlyIncome\":40200.5}");
+		Employee deSerializedResponse = jackson.deSerialization("{\"firstName\":\"JP\",\"lastName\":\"R\",\"age\":23,\"gender\":\"Female\",\"address\":{\"streetAddress\":null,\"city\":\"STAMFORD\",\"state\":\"CT\",\"zip\":\"06905\",\"country\":\"FAIRFIELD\"},\"monthlyIncome\":40200.5,\"selfEmployed\":\"N\"}");
 	
 		System.out.println("DeSerialized Response: " + deSerializedResponse);
 	}
@@ -37,6 +37,7 @@ public class JacksonAnnotations {
 		employee.setPhoneNumbers(new String[] { "1234678905" });
 		employee.setEmployeeId(2);
 		employee.setIncome(40200.50);
+		employee.setSelfEmployed(true);
 		return employee;
 	}
 
