@@ -7,6 +7,10 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 
+/**
+ * @author jayapriya.r
+ * converts Boolean to String using Jackson serialize annotation
+ */
 public class BooleanToString extends JsonSerializer<Boolean>{
 
 	@Override
