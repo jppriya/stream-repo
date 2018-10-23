@@ -1,4 +1,4 @@
-package com.jp.poc;
+package com.jp.poc.sample;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.poc.jp.streams;
+package com.jp.poc.streams;
 
 //A Class used to send a message
 class Sender {

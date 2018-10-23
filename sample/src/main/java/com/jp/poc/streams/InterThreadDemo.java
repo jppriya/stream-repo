@@ -1,4 +1,4 @@
-package com.poc.jp.streams;
+package com.jp.poc.streams;
 
 class InterThreadDemo {
 	public static void main(String arg[]) {
