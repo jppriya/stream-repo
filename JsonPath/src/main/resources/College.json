@@ -1,0 +1,128 @@
+{
+	"courses": [
+		{
+			"name": "B.Tech",
+			"id": 1,
+			"departments": [
+				{
+					"name": "IT",
+					"id": 1,
+					"students": [
+						{
+							"name": "Jaya",
+							"id": 1,
+							"address": {
+								"street": "2nd Street",
+								"city": "Bangalore",
+								"state": "Karnataka",
+								"country": "India",
+								"zipcode": "1212"
+							}
+						},
+						{
+							"name": "Priya",
+							"id": 2,
+							"address": {
+								"street": "1st Street",
+								"city": "Perambalur",
+								"state": "Tamilnadu",
+								"country": "India",
+								"zipcode": "2121"
+							}
+						}
+					]
+				},
+				{
+					"name": "Chemical",
+					"id": 2,
+					"students": [
+						{
+							"name": "Sandhya",
+							"id": 1,
+							"address": {
+								"street": "2nd Street",
+								"city": "Bangalore",
+								"state": "Karnataka",
+								"country": "India",
+								"zipcode": "1212"
+							}
+						},
+						{
+							"name": "Monisha",
+							"id": 2,
+							"address": {
+								"street": "1st Street",
+								"city": "Perambalur",
+								"state": "Tamilnadu",
+								"country": "India",
+								"zipcode": "2121"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "B.E",
+			"id": 1,
+			"departments": [
+				{
+					"name": "ECE",
+					"id": 1,
+					"students": [
+						{
+							"name": "Suganya",
+							"id": 1,
+							"address": {
+								"street": "2nd Street",
+								"city": "Bangalore",
+								"state": "Karnataka",
+								"country": "India",
+								"zipcode": "1212"
+							}
+						},
+						{
+							"name": "Keerthana",
+							"id": 2,
+							"address": {
+								"street": "1st Street",
+								"city": "Perambalur",
+								"state": "Tamilnadu",
+								"country": "India",
+								"zipcode": "2121"
+							}
+						}
+					]
+				},
+				{
+					"name": "CSE",
+					"id": 2,
+					"students": [
+						{
+							"name": "Akila",
+							"id": 1,
+							"address": {
+								"street": "2nd Street",
+								"city": "Bangalore",
+								"state": "Karnataka",
+								"country": "India",
+								"zipcode": "1212"
+							}
+						},
+						{
+							"name": "Pavi",
+							"id": 2,
+							"address": {
+								"street": "1st Street",
+								"city": "Perambalur",
+								"state": "Tamilnadu",
+								"country": "India",
+								"zipcode": "2121"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
