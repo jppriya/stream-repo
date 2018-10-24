@@ -1,4 +1,4 @@
-package com.jp.poc.sample;
+package com.jp.poc.javapassbyvalue;
 
 import java.util.ArrayList;
 import java.util.List;
