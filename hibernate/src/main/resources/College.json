@@ -1,0 +1,137 @@
+[
+	{
+		"name": "CIT",
+		"courses": [
+			{
+				"name": "B.E",
+				"departments": [
+					{
+						"name": "ECE",
+						"students": [
+							{
+								"name": "Suganya",
+								"gender": "FEMALE"
+							},
+							{
+								"name": "Keerthana",
+								"gender": "FEMALE"
+							}
+						]
+					},
+					{
+						"name": "CSE",
+						"students": [
+							{
+								"name": "Akila",
+								"gender": "FEMALE"
+							},
+							{
+								"name": "Pavi",
+								"gender": "FEMALE"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "B.Tech",
+				"departments": [
+					{
+						"name": "IT",
+						"students": [
+							{
+								"name": "Suganya2",
+								"gender": "FEMALE"
+							},
+							{
+								"name": "Keerthana2",
+								"gender": "FEMALE"
+							}
+						]
+					},
+					{
+						"name": "CHEMICAL",
+						"students": [
+							{
+								"name": "Akila2",
+								"gender": "FEMALE"
+							},
+							{
+								"name": "Pavi2",
+								"gender": "FEMALE"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "PSG",
+		"courses": [
+			{
+				"name": "B.Tech",
+				"departments": [
+					{
+						"name": "IT",
+						"students": [
+							{
+								"name": "Suganya3",
+								"gender": "FEMALE"
+							},
+							{
+								"name": "Keerthana3",
+								"gender": "FEMALE"
+							}
+						]
+					},
+					{
+						"name": "CHEMICAL",
+						"students": [
+							{
+								"name": "Akila3",
+								"gender": "FEMALE"
+							},
+							{
+								"name": "Pavi3",
+								"gender": "FEMALE"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "B.E",
+				"departments": [
+					{
+						"name": "ECE",
+						"students": [
+							{
+								"name": "Suganya4",
+								"gender": "FEMALE"
+							},
+							{
+								"name": "Keerthana4",
+								"gender": "FEMALE"
+							}
+						]
+					},
+					{
+						"name": "CSE",
+						"students": [
+							{
+								"name": "Akila4",
+								"gender": "FEMALE"
+							},
+							{
+								"name": "Pavi4",
+								"gender": "FEMALE"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+	
