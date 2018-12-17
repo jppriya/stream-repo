@@ -7,6 +7,9 @@ public class SampleListOperations {
 
 	public static void main (String args[]) {
 		System.out.println("List Operations");
+		Long a =null;
+		Long b= 181l;
+		System.out.println(Long.compare(a, b) ==0);
 		List<String> list = new ArrayList<>();
 		list.add("Jaya");
 		updateList(list);
