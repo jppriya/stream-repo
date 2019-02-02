@@ -1,7 +1,5 @@
 package com.jp.poc.javapassbyvalue;
 
-
-
 /**
  * @author jayapriya.r
  *
@@ -9,6 +7,14 @@ package com.jp.poc.javapassbyvalue;
  *https://javaranch.com/campfire/StoryCups.jsp
  *
  *https://javaranch.com/campfire/StoryPassBy.jsp
+ *
+ */
+
+
+/**
+ * Java is pass-by-value.For primitives, you pass a copy of the actual value.
+ * For references to objects, you pass a copy of the reference (the remote control).
+ *
  */
 public class PassByValue {
 	
@@ -18,6 +24,18 @@ public class PassByValue {
 	 * */
 	
 	
+	/**
+	 * @param args
+	 * /*
+	 * Output of the programs
+	 * 1 
+	 * Cat1 366712642 
+	 * Cat2 1829164700 
+	 * Updating the reference :Cat3 Cat3-> 2 Cat2-> 2 
+	 * Updating the source :Cat2 Cat3-> 3 Cat2-> 3 
+	 * Cat2 1829164700 
+	 * Cat3 1829164700
+	 */
 	public static void main (String args[]) {
 		Cat cat1= new Cat("Kivi",1,"Black");
 		checkPassByValue(cat1);
