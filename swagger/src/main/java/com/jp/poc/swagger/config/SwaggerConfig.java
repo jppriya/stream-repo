@@ -1,8 +1,8 @@
 package com.jp.poc.swagger.config;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
-import org.assertj.core.util.Arrays;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

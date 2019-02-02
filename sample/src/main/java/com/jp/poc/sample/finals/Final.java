@@ -1,4 +1,4 @@
-package com.jp.poc.sample.clone;
+package com.jp.poc.sample.finals;
 
 public class Final {
 

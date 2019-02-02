@@ -1,4 +1,4 @@
-package com.jp.poc.javapassbyvalue;
+package com.jp.poc.sample.javapassbyvalue;
 
 public class Cat {
 

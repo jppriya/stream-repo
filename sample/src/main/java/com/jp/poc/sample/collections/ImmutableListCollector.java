@@ -1,4 +1,4 @@
-package com.jp.poc.streams;
+package com.jp.poc.sample.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;

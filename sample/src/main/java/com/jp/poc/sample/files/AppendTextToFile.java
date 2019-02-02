@@ -1,4 +1,4 @@
-package com.jp.poc.streams;
+package com.jp.poc.sample.files;
 
 
 
