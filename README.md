@@ -1,4 +1,3 @@
-# stream-repo
-Sample Stream Opertations
+# Practice
 
-This Repository is for sample stream operations
+Practice repository for Java, Mapstruct, Swagger, Hibernate, JsonPath, Exception Handling
