@@ -9,6 +9,10 @@ package com.jp.poc.sample.abstracts;
  * 
  */
 public abstract class AbstractClass {
+	
+	private AbstractClass() {
+		
+	}
 
 	// Abstract method shouldn't have method body
 	public abstract void abstractMethod();

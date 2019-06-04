@@ -6,7 +6,8 @@ import java.util.stream.Collectors;
 
 public class CapitalOfFirstLetterInWord {
 	public static void main(String args[]) {
-		System.out.println(capitalOfFirstLetterInWord("make first character as capital in the sentence"));
+		System.out.println(Character.isDigit('c'));
+//		System.out.println(capitalOfFirstLetterInWord("make first character as capital in the sentence"));
 	}
 
 	private static String capitalOfFirstLetterInWord(String sentence) {
